@@ -1,0 +1,25 @@
+--lets create a table employee_audit
+
+create table employee_audit
+(
+auditID int primary key auto_increment,
+old_jobtitle varchar(150) not null,
+new_jobtitle varchar(150) not null,
+changedDate datetime not null,
+employeeNumber int not null,
+foreign key(employeeNumber) references employees(employeeNumber)
+);
+
+delimiter $$
+create trigger after_employees_update
+after
+update
+on employees
+for each row
+begin
+insert into employee_audit
+(old_jobtitle,new_jobtitle,changedDate,employeeNumber)
+values
+(OLD.jobTitle,NEW.jobTitle,now(),OLD.employeeNumber);
+
+end$$

@@ -1,0 +1,102 @@
+
+		h1,h4 {
+			text-align: center;
+		}
+		h3,h4{
+					color:purple;
+		}
+		h1,.white{
+					color:white;
+		}
+		p{
+			text-align: center;
+		}
+		/*button{
+			background-color:purple;
+			
+			border-color: white;
+		}	
+		.quick{
+			text-decoration: underline;
+			color: white;
+
+		}*/
+		.header{
+			background-color: purple;
+		}
+		.last li,.last li a {
+		font-size: 14px;
+		text-decoration: none;
+		color: white;
+		list-style-type: none;
+		}
+		.center{
+				border: 1px solid white;
+		}
+		
+		.center, .aa{
+			text-align: center;
+			color: white;
+		}
+		/*.content{
+			display: block;
+			background-color: gray;
+			width:30%;
+			float: left;	
+		}*/
+		.slider{
+			border-bottom: 3px solid purple;
+		}
+		ul li a span{
+			font-size: 20px;
+		}
+		.info li a:hover{
+			font-size: 18px;
+			padding: 1px;
+		}
+		
+		div .last{
+			margin-top: 10px;
+		}
+		/*.userList{
+			border: 3px;
+		}*/
+	
+		.user{
+		width: 120px;
+		height: 120px;
+		border-radius: 50%;
+		overflow: hidden;
+		position: absolute;
+		top: -60px;
+		left: calc(50% - 60px);
+		}
+	
+	.hello{
+			margin-top: 65px;
+		}
+	.cmt{
+			margin-top: 15px;
+		}
+	.mrg{
+			margin-top: 95px;
+		}
+		.abc{
+			background:url("../img/back.jpg");
+		}
+		.error{
+			color: red;
+		}
+		.m{
+			margin-left: 35%;
+
+		}
+		.dats{
+			margin-left: 70%;
+		}
+		.notice{
+			text-align: left;
+		}
+		.semister{
+			width:20%;
+		}
